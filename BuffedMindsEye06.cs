@@ -20,6 +20,7 @@ public class BuffedMindsEye06 : MelonMod
         }
     }
 
+    // When getting a skill's description
     [HarmonyPatch(typeof(datSkillHelp_msg), nameof(datSkillHelp_msg.Get))]
     private class Patch2
     {
