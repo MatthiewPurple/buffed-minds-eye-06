@@ -27,7 +27,7 @@ public class BuffedMindsEye06 : MelonMod
         public static void Postfix(ref int id, ref string __result)
         {
             // New skill description for Mind's Eye
-            if (id == 298) __result = "Prevents being attacked\nfrom behind.";
+            if (id == 298) __result = "Prevents being attacked \nfrom behind.";
         }
     }
 }
